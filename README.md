@@ -8,7 +8,7 @@ This project demonstrates the design and implementation of a modern data pipelin
 
 ### 📌 Project Architecture
 
-![Architecture Diagram]([https://github.com/Mockbee/zillow-de-project/blob/main/Zillow%20Data%20Architecture%20Diagram.png))
+![Architecture Diagram](https://github.com/Mockbee/zillow-de-project/blob/main/Zillow%20Data%20Architecture%20Diagram.png)
 
 ---
 
