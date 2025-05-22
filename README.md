@@ -37,7 +37,7 @@ The raw datasets are fetched from APIs and processed through the Medallion archi
 ### 🧱 Medallion Architecture Layers
 
 1. **Bronze Layer (Raw Ingestion):**
-   - Ingests raw Zillow data (property, price, tax) in JSON/CSV.
+   - Ingests raw Zillow data (property, price, tax) in JSON.
    - Stores exact payload for traceability and recovery.
 
 2. **Silver Layer (Transformation):**
