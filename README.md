@@ -52,4 +52,13 @@ The raw datasets are fetched from APIs and processed through the Medallion archi
 ### 🔁 Pipeline Flow
 
 The project is orchestrated with **Databricks Workflows**, which executes tasks in a DAG structure:
-[FetchingPropertyAPI] --> []
+1. [FetchingPropertyAPI] and [FetchingTaxandPriceData]
+        ↓
+2. [Bronze_Layer_Property], [Bronze_Layer_Price], [Bronze_Layer_Tax]
+        ↓
+3. [check_for_property_data], [check_for_price_data], [check_for_tax_data]
+        ↓
+4. [silver_layer_property], [silver_layer_price], [silver_layer_tax]
+        ↓
+5. [Move_to_archive]
+
